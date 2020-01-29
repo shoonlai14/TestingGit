@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spCity;
     ArrayAdapter<String> aacity;
 
-    String[] cityName={"Yangon","Mandalay","Taunggyi","Pyin Oo Lwin","Nay Pyi Taw"};
+    String[] cityName={"Yangon","Mandalay","Taunggyi","Pyin Oo Lwin","Nay Pyi daw"};
     String[] countryName={"Myanmar","Thailand","China","Japan","Indonesia"};
 
     @Override
