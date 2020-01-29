@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Registration"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="62dp" />
+    </TableRow>
+
+    <TableRow>
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <EditText
+        android:id="@+id/etMiddleName"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="91dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="101dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/Address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="149dp" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/etAddress1"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Street Address"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="188dp" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/etAddress2"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address Line 2"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="253dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/City"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="622dp" />
+
+        <TextView
+            android:id="@+id/SPR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State / Province / Region" />
+    </TableRow>
+
+    <TableRow>
+        <Spinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="141dp"
+            android:layout_height="48dp"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="667dp" />
+
+    <EditText
+        android:id="@+id/etSPR"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="253dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/Zip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Postal / Zip Code" />
+         <TextView
+        android:id="@+id/Country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="622dp" />
+    </TableRow>
+
+    <TableRow>
+        <EditText
+            android:id="@+id/etZip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+        <Spinner
+        android:id="@+id/spinnerCountry"
+        android:layout_width="141dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="238dp"
+        tools:layout_editor_absoluteY="667dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+    </TableRow>
+
+</TableLayout>
